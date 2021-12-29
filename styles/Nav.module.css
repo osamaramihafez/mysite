@@ -1,0 +1,36 @@
+.nav {
+  float: right;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* @media (max-width: 600px) {
+  .nav {
+
+  }
+} */
+
+.homeText {
+  clear: both;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+  border: solid 1px green;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav ul li a:hover {
+  color: white;
+  background: green;
+}

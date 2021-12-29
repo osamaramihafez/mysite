@@ -17,7 +17,7 @@ function reflections() {
   ];
   let reflectionsList = reflections.map((reflection) => {
     return (
-      <div className="overlay">
+      <div key={reflection.title} className="overlay">
         <Reflection {...reflection} />
       </div>
     );
